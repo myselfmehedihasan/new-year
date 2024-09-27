@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+BE+WAL:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  /* text-align: right; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 20px;
+  border: none;
+}
+
+.para {
+  color: #444343;
+  /* text-align: right; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.banner h1 {
+  color: #151414;
+  /* text-align: right; */
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* .banner p {
+  color: #444343;
+  /* text-align: right; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 162.5%
+*/
+
+.banner * {
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+.banner {
+  background-image: url("../images/banner/banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+
+  padding: 100px 230px 364px 845px;
+}
+
+.banner-container {
+  /* display: flex; */
+  text-align: right;
+  margin-left: 230px;
+}
+
+/* failure section */
+
+/* .failure{
+  margin-top: 140px;
+} */
+.failure-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 100px; */
+  /* padding: auto 150px; */
+  margin-top: 100px;
+}
+
+.failures .failure-content .failure-description {
+  /* width: 80%; */
+  max-width: 400px;
+  /* text-align: center; */
+  padding-left: 100px;
+}
+
+.failures .failure-content .failure-description h1 {
+  color: #151414;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.failures .failure-content .failure-description p {
+  color: #444343;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 16px;
+}
+ul {
+  list-style: none;
+}
+.checkmark {
+  color: rgb(16, 235, 16);
+  /* width: 24px;
+  height: 24px; */
+}
+
+.failures .failure-content .failure-description .failure-image {
+  width: 451px;
+  height: 800px;
+}
+.plans {
+  margin-top: 100px;
+  /* width: 1140px; */
+}
+
+.plans .plan-content {
+  display: flex;
+}
+.plans h1 {
+  color: var(--Dark-01, #151414);
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.plans .plan-content h2 {
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.plans .plan-content p {
+  color: var(--Dark-03, #737272);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.planlist img {
+  display: block;
+  margin: 0 auto;
+}
+
+.plans .plan-content {
+  justify-content: space-around;
+  padding: 0 320px;
+  gap: 80px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.positive {
+  margin: 130px 350px;
+}
+.positive-main {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* padding: 200px 0; */
+
+  background-size: 1240px 300px; /* set the background image size */
+  height: 300px; /* set the height of the container to match the background image */
+  /* padding: 0; */
+  border-radius: 8px;
+}
+
+.positive .positive-main .positive-content {
+  /* padding: auto 60px; */
+  margin-left: 60px;
+  padding-top: 60px;
+}
+
+.positive .positive-main .positive-content h1 {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+
+.positive .positive-main .positive-content button {
+  color: #f15b22;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 36px;
+  border: none;
+}
+
+footer {
+  background-color: #151414;
+  max-width: 1900px;
+  height: 500px;
+}
+
+.footer-container {
+  margin: 0 230px;
+  padding-top: 120px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 300px;
+}
+
+.footer-container * {
+  padding-bottom: 15px;
+}
+
+.footer-container .footer-left {
+  max-width: 600px;
+}
+
+.footer-container .footer-left h1 {
+  color: #f8f8f8;
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-container .footer-left p {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.footer-container .footer-right h1 {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer-container .footer-right .input-elements {
+  display: flex;
+  flex-direction: column; /* stack the input fields and button vertically */
+  align-items: flex-start;
+}
+
+.footer-container .footer-right .input-elements * {
+  margin-bottom: 20px;
+}
+
+.footer-container .footer-right input {
+  width: 360px;
+  border-radius: 8px ;
+  border: 1px solid white;
+  background:#151414;
+  padding: 21px 158px 21px 20px;
+}
+
+.footer-container .footer-right input::placeholder{
+  color: #F3F3F3;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-container .footer-right .input-elements button {
+  color: #f15b22;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 36px;
+  border: none;
+}
